@@ -1,0 +1,17 @@
+{
+  "name": "nats-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "listen": "ts-node-dev --rs listener.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@marksdev-ticket/common": "^1.0.4",
+    "node-nats-streaming": "^0.3.2",
+    "ts-node-dev": "^2.0.0"
+  }
+}
