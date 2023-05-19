@@ -30,7 +30,7 @@ spec:
               valueFrom:
                 secretKeyRef:
                   name: jwt-secret
-                  key: jwt
+                  key: JWT_KEY
           # image: us.gcr.io/ticketing-dev-383217/orders
 ---
 apiVersion: v1
