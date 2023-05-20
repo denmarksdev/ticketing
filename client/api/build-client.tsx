@@ -5,8 +5,7 @@ export const buildClient = (context) => {
     const { req } = context;
 
     return axios.create({
-      baseURL:
-        "http://ingress-nginx-controller.ingress-nginx.svc.cluster.local",
+      baseURL: "www.marksdev-app-prod.online",
       headers: req?.headers,
     });
   } else {
