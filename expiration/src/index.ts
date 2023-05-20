@@ -4,6 +4,8 @@ import { OrderCreatedListener } from "./events/listeners/order-created-listener"
 const Port = 3000;
 
 const start = async () => {
+  console.log('Starting...')
+
   if (!process.env.NATS_URL) {
     throw Error("NATS_URL must be defined");
   }

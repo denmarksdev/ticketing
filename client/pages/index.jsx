@@ -5,7 +5,7 @@ import Link from "next/link";
 const LandingPage = ({ tickets }) => {
   return (
     <div>
-      <h1>Tickets</h1>
+      <h2>Tickets</h2>
 
       <table className="table">
         <thead>
